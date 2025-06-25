@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estate Analytics</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      id="main"
+      class="w-full h-screen bg-white text-zinc-900 relative overflow-hidden"
+    >
+      <!-- Navbar -->
+      <div class="nav-bar w-full px-10 py-4 flex items-center justify-between">
+        <div class="logo">
+          <h1 class="text-2xl font-bold text-zinc-500">My Logo</h1>
+        </div>
+        <div class="links">
+          <ul class="flex items-center gap-5 text-md font-light text-gray-500">
+            <li class="cursor-pointer hover:text-black transition">Home</li>
+            <li class="cursor-pointer hover:text-black transition">Feature</li>
+            <li class="cursor-pointer hover:text-black transition">
+              Testimonial
+            </li>
+            <li class="cursor-pointer hover:text-black transition">Blogs</li>
+            <li class="cursor-pointer hover:text-black transition">About Us</li>
+          </ul>
+        </div>
+        <div class="button">
+          <button
+            class="btn bg-black text-white px-4 py-2 rounded-full hover:bg-zinc-800 transition"
+          >
+            Start for free <i class="ri-arrow-right-s-line"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Body -->
+      <div class="body w-full h-full relative">
+        <!-- Left Image -->
+        <div
+          class="left-image absolute top-1/2 left-[10%] -translate-y-1/2 -translate-x-1/2 w-[30vw] h-[20vw] origin-bottom -rotate-12 overflow-hidden rounded-2xl shadow-lg relative"
+        >
+          <img
+            class="w-full h-full object-cover object-top"
+            src="https://meva.net/en-gb/wp-content/uploads/sites/2/2022/01/9775.jpg"
+            alt="building"
+          />
+          <div
+            class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white/80 to-transparent"
+          ></div>
+        </div>
+
+        <!-- Right Image (Pyramid) -->
+        <div
+          class="right-image absolute top-[20%] right-0 w-[30vw] h-[20vw] origin-bottom rotate-12 overflow-hidden rounded-2xl shadow-lg"
+        >
+          <img
+            class="w-full h-full object-cover object-top"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoK449nAr5Z1JKgNV5xCBf_QCkQ25c72TGMw&s"
+            alt="pyramid"
+          />
+          <div
+            class="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-white/80 to-transparent"
+          ></div>
+        </div>
+
+        <!-- Center Content -->
+        <div
+          class="main-content absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center max-w-xl px-6 flex flex-col items-center gap-4 z-10"
+        >
+          <h4 class="bg-zinc-100 text-zinc-600 text-lg px-4 py-2 rounded-full">
+            <i class="ri-bard-fill"></i> Welcome To Propy Ai
+          </h4>
+
+          <h1 class="text-4xl font-semibold leading-tight">
+            <span class="text-indigo-500 font-bold">AI-Powered</span> Real
+            <br />
+            Estate Analytics
+          </h1>
+
+          <p class="text-zinc-600 text-sm leading-relaxed">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+            distinctio quas facilis blanditiis, a vitae facere qui repellendus
+            aliquam praesentium eius voluptatem minus delectus, et, eum sunt
+            perspiciatis sint maiores.
+          </p>
+
+          <div class="flex items-center justify-center gap-5 mt-2">
+            <button
+              class="btn bg-indigo-600 text-white px-5 py-2 rounded-full hover:bg-indigo-700 transition"
+            >
+              Start for free <i class="ri-arrow-right-s-line"></i>
+            </button>
+            <p
+              class="text-zinc-500 font-medium cursor-pointer hover:text-black transition"
+            >
+              Explore Properties
+            </p>
+          </div>
+
+          <h3 class="px-3 py-1 bg-gray-100 text-zinc-400 rounded-full mt-3">
+            Integer with:
+          </h3>
+
+          <div class="ai-links">
+            <!-- Optional icons or logos -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
